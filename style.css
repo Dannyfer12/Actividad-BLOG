@@ -1,0 +1,81 @@
+video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    z-index: -100;
+
+    background-size: cover;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-size: 100%;
+    vertical-align: baseline;
+}    
+body {
+
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: rgba(3, 3, 3, 0.795);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+.navbar{
+     display: flex;
+     margin-right: 10%;
+     
+}
+.logo{
+    margin-left: 30px;
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 40px;
+
+
+}
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.imbox {
+    height: 60vh !important;
+    padding: 50px 50px ;
+    font-size: medium;
+}
+.navbar a:hover{
+    background-color: rgba(0, 204, 255, 0.192);
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-image: url(imagen/GifNote10.gif);
+    
+}

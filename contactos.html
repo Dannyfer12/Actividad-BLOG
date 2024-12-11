@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: aliceblue;">Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div class="head">
+     <style>
+    *{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-size: 100%;
+    vertical-align: baseline;
+}    
+body {
+
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: rgba(3, 3, 3, 0.795);
+    width: 100%;
+    z-index: 100;
+
+}
+.navbar{
+     display: flex;
+     margin-right: 10%;
+     
+}
+.logo{
+    margin-left: 30px;
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 40px;
+
+
+}
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a:hover{
+    background-color: rgba(0, 204, 255, 0.192);
+}
+
+     </style>
+    <div class="logo"> 
+        <a href="#">TecnoCell乄pert</a>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="sobrenosotros.html">Sobre Nosotros</a>
+        <a href="contactos.html">Contacto</a>
+        <a href="ubicacion.html">ubicacion</a>
+    </div>
+     
+</div>
+     
+
+<body>
+    <header>
+        <h1 style="color:  rgba(241, 240, 243, 0.774);font-size: 35px;">Contacto</h1>
+        <nav >
+            
+            <h2 style="color: rgba(241, 240, 243, 0.774);font-size: 30px;">Telf :0943456543</h2>
+            <h2 style="color: rgba(241, 240, 243, 0.774);font-size: 30px;"> Telf :0900006543</h2>
+        
+        </nav>
+    </header>
+    <style>
+        video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    z-index: -100;
+
+    background-size: cover;
+}
+    </style>
+    <div class="fondo">
+
+        <video src="videos/5200-183786525_medium.mp4"autoplay preload muted loop=""></video>
+    </div>
+    <main>
+        <section>
+            <h2 style="color: rgba(241, 240, 243, 0.774);font-size: 30px;">Formulario de Contacto</h2>
+           
+                <label for style="color:  rgba(241, 240, 243, 0.774);font-size: 20px;">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for style="color:  rgba(241, 240, 243, 0.774);font-size: 20px;">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for style="color: rgba(241, 240, 243, 0.774);font-size: 20px;">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+            </h5><button type="submit">Enviar</button><h5>
+           
+        </section>
+    </main>
+</body>
+</html>
